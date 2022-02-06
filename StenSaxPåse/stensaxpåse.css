@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+        
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+.spelplan {
+    background-color: white;
+    text-align: center;
+    height: 90vh;
+    border-radius: 5px;;
+    padding: 7px;
+}
+
+.bild {
+    height: 9vh;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    justify-content: space-between;
+}
+
+.poäng {
+    position: absolute;
+    bottom: 10%;
+    left: 39%;
+    display: flex;
+    justify-content: center;
+}
+
+.poäng p {
+    margin: 5vh;;
+}
+
+.poängen {
+    height: 6vh;
+    position: absolute;
+    right: 25vh;
+    bottom: 14vh;
+}

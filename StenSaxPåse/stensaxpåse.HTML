@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="stensaxpåse.css">
+    <title>StenSaxPåse</title>
+</head>
+<body>
+ 
+<div class="spelplan">
+    <button class="button" onclick="sten()">Sten</button>
+    <button class="button" onclick="sax()">Sax</button>
+    <button class="button" onclick="påse()">Påse</button>
+    <hr> <br> <br>
+
+    <p id="spelarval"></p>
+    <img class = "bild" id="spelarBild" src=""></img>
+    <br>
+    <p id="datorval"></p>
+    <img class = "bild" id="datorBild" src=""></img>
+    <br>
+    <p id="resultat"></p>
+
+    <div class="poäng">
+        <p id="spelarPoäng">Spelare: 0</p>
+        <p id="datorPoäng">Dator: 0</p>
+    </div>
+
+    <button class ="poängen" id="poängen" onclick = "reset()">Återställ poäng</button>
+
+</div>
+
+
+<script src="stensaxpåse.js"></script>
+</body>
+</html>
